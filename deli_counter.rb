@@ -9,7 +9,7 @@ def line(people_in_line)
     #"The line is currently: 1. Logan 2. Avi 3. Spencer"
     queue = "The line is currently:"
     people_in_line.each_with_index {|name, index|
-      queue += " #{index+1}. name"
+      queue += " #{index+1}. #{name}"
     }
   end 
   return queue
