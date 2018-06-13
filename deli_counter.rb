@@ -4,14 +4,14 @@ katz_deli = []
 def line(people_in_line)
   queue = "The line is currently:"
   if people_in_line.length == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
     
   else
     people_in_line.each_with_index {|name, index|
       queue += " #{index+1}. #{name}"
     }
   end 
-  return queue
+  puts queue
 end
 
 def take_a_number(current_line, new_person) #"Welcome, Grace. You are number 4 in line."
