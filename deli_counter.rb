@@ -15,5 +15,6 @@ def line(people_in_line)
   return queue
 end
 
-def take_a_number(current_line, new_person)
+def take_a_number(current_line, new_person) #"Welcome, Grace. You are number 4 in line."
+  puts "Welcome, #{new_person}. You are number #{current_line.length} in line."
   
