@@ -19,7 +19,7 @@ def take_a_number(current_line, new_person) #"Welcome, Grace. You are number 4 i
 end
   
 def now_serving(current_line)
-  next_person = katz_deli[0]
+  next_person = current_line[0]
   katz_deli.shift
   puts "currently serving #{next_person}."
   
