@@ -21,10 +21,11 @@ def take_a_number(current_line, new_person) #"Welcome, Grace. You are number 4 i
 end
   
 def now_serving(current_line)
+  next_person = current_line[0]
   if current_line.length == 0 
     puts "There is nobody waiting to be served!"
+  else 
+    current_line.shift
+    puts "Currently serving #{next_person}."
   end
-  next_person = current_line[0]
-  current_line.shift
-  puts "Currently serving #{next_person}."
 end 
