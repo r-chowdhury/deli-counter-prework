@@ -21,6 +21,7 @@ end
   
 def now_serving
   next_person = katz_deli[0]
+  katz_deli.shift
   puts "currently serving #{next_person}."
   
 end 
