@@ -19,3 +19,8 @@ def take_a_number(current_line, new_person) #"Welcome, Grace. You are number 4 i
   puts "Welcome, #{new_person}. You are number #{current_line.length} in line."
 end
   
+def now_serving
+  next_person = katz_deli[0]
+  puts "currently serving #{next_person}."
+  
+end 
