@@ -25,5 +25,5 @@ def now_serving(current_line)
   end
   next_person = current_line[0]
   current_line.shift
-  puts "currently serving #{next_person}."
+  puts "Currently serving #{next_person}."
 end 
