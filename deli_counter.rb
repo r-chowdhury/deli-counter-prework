@@ -15,4 +15,5 @@ def line(people_in_line)
   return queue
 end
 
-
+def take_a_number(current_line, new_person)
+  
