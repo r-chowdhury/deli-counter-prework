@@ -7,7 +7,6 @@ def line(people_in_line)
     return "The line is currently empty."
     
   else
-    
     people_in_line.each_with_index {|name, index|
       queue += " #{index+1}. #{name}"
     }
