@@ -8,7 +8,7 @@ def line(katz_deli)
   else
     #"The line is currently: 1. Logan 2. Avi 3. Spencer"
     katz_deli.each_with_index {|name, index|
-    message = "Hello, #{name}! You'll be assigned to room #{index+1}!"
-    message_speakers.push(message)
+    message = "The line is currently: "
+    
   }
   return message_speakers
