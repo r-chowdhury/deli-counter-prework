@@ -10,8 +10,9 @@ def line(people_in_line)
     people_in_line.each_with_index {|name, index|
       queue += " #{index+1}. #{name}"
     }
+    puts queue
   end 
-  puts queue
+  
 end
 
 def take_a_number(current_line, new_person) #"Welcome, Grace. You are number 4 in line."
