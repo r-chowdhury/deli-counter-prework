@@ -12,5 +12,6 @@ def line(katz_deli)
       queue += " #{index+1}. name"
     }
   end 
+  return queue
 end
-  return 
+  
