@@ -2,7 +2,7 @@
 katz_deli = ['jim', 'bob', 'steven']
 
 def line(people_in_line)
-  if line.length == 0
+  if people_in_line.length == 0
     return "The line is currently empty."
     
   else
