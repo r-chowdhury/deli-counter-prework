@@ -10,7 +10,7 @@ def line(people_in_line)
       queue += " #{index+1}. #{name}"
     }
   end 
-  return queue
+  puts queue
 end
 
 def take_a_number(current_line, new_person) #"Welcome, Grace. You are number 4 in line."
