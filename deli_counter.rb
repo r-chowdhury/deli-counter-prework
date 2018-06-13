@@ -14,4 +14,6 @@ def line(katz_deli)
   end 
   return queue
 end
-  
+
+
+puts line(katz_deli)
