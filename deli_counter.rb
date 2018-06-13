@@ -21,8 +21,8 @@ end
 def now_serving(current_line)
   if current_line.length == 0 
     return "The line is currently empty."
+  end
   next_person = current_line[0]
   current_line.shift
   puts "currently serving #{next_person}."
-  
 end 
