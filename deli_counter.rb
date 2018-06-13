@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli = ['jim', 'bob', 'steven']
+katz_deli = []
 
 def line(people_in_line)
   if people_in_line.length == 0
@@ -16,4 +16,3 @@ def line(people_in_line)
 end
 
 
-puts line(katz_deli)
