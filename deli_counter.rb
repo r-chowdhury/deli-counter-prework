@@ -4,7 +4,6 @@ katz_deli = []
 def line(people_in_line)
   if people_in_line.length == 0
     return "The line is currently empty."
-    
   else
     #"The line is currently: 1. Logan 2. Avi 3. Spencer"
     queue = "The line is currently:"
