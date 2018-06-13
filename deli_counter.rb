@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = ['jim', 'bob', 'steven']
 
-def line(katz_deli)
+def line(people_in_line)
   if line.length == 0
     return "The line is currently empty."
     
