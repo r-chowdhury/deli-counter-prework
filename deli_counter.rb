@@ -8,7 +8,7 @@ def line(people_in_line)
   else
     #"The line is currently: 1. Logan 2. Avi 3. Spencer"
     queue = "The line is currently:"
-    katz_deli.each_with_index {|name, index|
+    people_in_line.each_with_index {|name, index|
       queue += " #{index+1}. name"
     }
   end 
