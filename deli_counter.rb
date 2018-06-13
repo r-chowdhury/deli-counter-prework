@@ -2,11 +2,12 @@
 katz_deli = []
 
 def line(people_in_line)
+  queue = "The line is currently:"
   if people_in_line.length == 0
     return "The line is currently empty."
     
   else
-    queue = "The line is currently:"
+    
     people_in_line.each_with_index {|name, index|
       queue += " #{index+1}. #{name}"
     }
