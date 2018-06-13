@@ -7,8 +7,8 @@ def line(katz_deli)
     
   else
     #"The line is currently: 1. Logan 2. Avi 3. Spencer"
+    queue = "The line is currently: "
     katz_deli.each_with_index {|name, index|
-    message = "The line is currently: "
-    
+    queue += "#{index+1}. name"
   }
-  return message_speakers
+  return 
